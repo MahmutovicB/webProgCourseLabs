@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/style.css">
+    <title>Form - local storage</title>
+</head>
+<body>
+    <h1>Registration form</h1>
+    <div class="reg">
+        <form name="reg-form" id="reg-form">
+            <label for="first-name">First name:</label>
+            <input type="text" name="first-name" id="first-name" required>
+            <br>
+            <label for="last-name">Last name:</label>
+            <input type="text" name="last-name" id="last-name" required>
+            <br>
+            <label for="job-title">Job title:</label>
+            <input type="text" name="job-title" id="job-title" required>
+            <br>
+            <button onclick="updateLocalStorage()" type="submit">Submit</button>
+        </form>
+    </div>
+
+    <div id="message"></div>
+
+    <script>
+        // let firstName = document.getElementById('first-name');
+        // let lastName = document.getElementById('last-name');
+        // let jobTitle = document.getElementById('job-title');
+
+        // function updateLocalStorage() {
+        //     localStorage.setItem('first-name', firstName.value);
+        //     localStorage.setItem('last-name', lastName.value);
+        //     localStorage.setItem('job-title', jobTitle.value);
+
+            
+        // }
+
+        // firstName.value = localStorage.getItem('first-name');
+        // lastName.value = localStorage.getItem('last-name');
+        // jobTitle.value = localStorage.getItem('job-title');
+
+        // document.getElementById('message').innerHTML = `Welcome, ${firstName.value} ${lastName.value}!`;
+        // document.getElementById('reg-form').reset();
+    </script>
+
+    <script src="script.js"></script>
+</body>
+</html>
