@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV Creator Tool</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light d-flex">
+        <img src="slika1.png" class="img img-fluid ps-4" style="max-width: 100px;">
+            <div class="input-group ms-5">
+                <input type="text" class="form-control" placeholder="Search" aria-label="Search" aria-describedby="search-button">
+                <div class="input-group-append">
+                    <button class="btn btn-outline-secondary" type="button" id="search-button">Search</button>
+                </div>
+            </div>
+            <div class="container-fluid justify-content-end">
+                <!-- Links -->
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link " href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Pricing</a>
+                    </li>
+                    <li class="nav-item">
+                <a class="nav-link" href="#">About us</a>
+              </li>
+              <li>
+                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#myModal1">
+                    Log in
+                </button>   
+                
+                <div class="modal" id="myModal1">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            
+                            <!-- Modal Header -->
+                            <div class="modal-header">
+                                <h4 class="modal-title">Login form</h4>
+                            </div>
+                            
+                            <!-- Modal body -->
+                            <div class="modal-body">
+                                <form class="needs-validation">
+                                    <div class="mb-3">
+                                        <label for="email" class="form-label">Email address:</label>
+                                        <input type="email" class="form-control" id="email" placeholder="Enter email" required>
+                                    </div>
+                                    <div class="mb-3">
+                                        <label for="pwd" class="form-label">Password:</label>
+                                        <input type="password" class="form-control" id="pwd" placeholder="Enter password" required  >
+                                    </div>
+                                    <div class="form-check mb-3">
+                                        <label class="form-check-label">
+                                            <input class="form-check-input" type="checkbox"> Remember me
+                                        </label>
+                                    </div>
+                                    <button type="submit" class="btn btn-primary">Submit</button>
+                                </form>
+                                
+                            </div>
+                            
+                            <!-- Modal footer -->
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                        </div>
+                  
+                    </div>
+                    </div>
+                  </div>
+                  
+                </li>
+                <li>
+                    <button type="button" class="btn btn-primary mx-2" data-bs-toggle="modal" data-bs-target="#myModal2">
+                        Sign up
+                    </button>   
+                    
+                    <div class="modal" id="myModal2">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                  
+                          <!-- Modal Header -->
+                            <div class="modal-header">
+                                <h4 class="modal-title">Sign up form</h4>
+                            </div>
+                            
+                        <!-- Modal body -->
+                        <div class="modal-body">
+                            <form class="needs-validation">
+                                <div class="mb-3">
+                                    <label for="email" class="form-label">Email address:</label>
+                                    <input type="email" class="form-control" id="email" placeholder="Enter email" required>
+                                </div>
+                                <div class="mb-3">
+                                    <label for="pwd" class="form-label">Password:</label>
+                                    <input type="password" class="form-control" id="pwd" placeholder="Enter password" required>
+                                </div>
+                                <div class="mb-3">
+                                    <label for="pwd" class="form-label">Confirm password:</label>
+                                    <input type="password" class="form-control" id="pwd" placeholder="Enter password" required>
+                                </div>
+                                <div class="form-check mb-3">
+                                    <label class="form-check-label">
+                                        <input class="form-check-input" type="checkbox"> Remember me
+                                    </label>
+                                </div>
+                                <button type="submit" class="btn btn-primary">Submit</button>
+                            </form>
+                          
+                        </div>
+                  
+                        <!-- Modal footer -->
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                        </div>
+                  
+                        </div>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+
+    <div class="container p-5 my-5  border border-bottom border-0 align-items-center text-center">
+        <h1>Welcome creator tool</h1>
+        <h5>Create, Customize, and Download Professional CVs in Minutes</h5>
+        <button type="button" class="btn btn-success mt-3">Create your CV</button>
+    </div>
+
+    <div class="container justify-content-center d-flex">
+        <div class="container my-4 mx-2" style="width: 20rem;">
+            <!-- Card -->
+            <div class="card">
+              <div class="card-body align-items-center text-center">
+                <h5>AI Plagiarism Check</h5>
+                <p class="card-text">Check your text for plagiarism</p>
+                <button type="button" class="btn btn-primary">Read more</button>
+              </div>
+            </div>
+        </div>      
+        
+        <div class="container my-4 mx-2" style="width: 20rem;">
+            <!-- Card -->
+            <div class="card">
+              <div class="card-body align-items-center text-center">
+                <h5>Top 10 Interview Questions</h5>
+                <p class="card-text">Prepare yourself for interview</p>
+                <button type="button" class="btn btn-primary">Read more</button>
+              </div>
+            </div>
+        </div>      
+
+        <div class="container my-4 mx-2" style="width: 20rem;">
+            <!-- Card -->
+            <div class="card">
+              <div class="card-body align-items-center text-center">
+                <h5>CV Template</h5>
+                <p class="card-text">Choose your CV template</p>
+                <button type="button" class="btn btn-primary">Read more</button>
+              </div>
+            </div>
+        </div>       
+    </div>
+
+    <div class="container align-items-center text-center my-5">
+        <h4 class="border-bottom pb-3">About CV Creator Tool</h4>
+        <p class="text-success">CV creator tool is an amazing tool created by IBU students in purpose for 
+            helping students to create their CVs in a professional way. <br>
+            This tool is free to use and it is very easy to use.
+        </p>
+    </div>
+
+    <div class="container align-items-center text-center mt-5 pt-2" >
+        <h4>Frequently asked questions</h4>
+        <ul class="list-group">
+            <li class="list-group-item text-primary">Question 1: <a href="#">What is CV?</a></li>
+            <li class="list-group-item text-primary">Question 2: <a href="#">What is CV used for?</a></li>
+            <li class="list-group-item text-primary">Question 3: <a href="#">What is CV?</a></li>
+        </ul>
+    </div>
+
+    <div class="container align-items-center text-center my-5">
+        <h4>Check out different notification types</h4>
+        <div class="alert alert-success alert-dismissible fade show" role="alert">
+            <strong>Success!</strong> Your operation was completed.
+            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+        </div>
+
+        <div class="alert alert-danger alert-dismissible fade show" role="alert">
+            <strong>Danger!</strong> Your operation is dangerous.
+            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+        </div>
+
+        <div class="alert alert-warning alert-dismissible fade show" role="alert">
+            <strong>Warning!</strong> You might lose unsaved data.
+            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+        </div>
+    </div>
+
+    <div class="container align-items-center text-center my-5">
+        <h4 class="border-bottom pb-3">Meet us at our place</h4>
+        <div class="embed-responsive embed-responsive-16by9">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4459.548646313018!2d18.31004133609205!3d43.8206804633822!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4758ca0f99d6bf3b%3A0x6f97362d8c61c461!2sInternational%20Burch%20University!5e1!3m2!1sen!2sba!4v1730993948926!5m2!1sen!2sba" width="800" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </div>
+    
+    <footer class="container-fluid bg-dark align-items-center text-center mt-5 text-white p-5 pb-2">
+        <p>© CV Creator Tool. All rights reserved</p>
+        <p>International Burch University <br>
+            Francuske revolucije bb, 71210 Ilidza, Sarajevo, Bosnia and Herzegovina <br>
+            Phone: +387 33 944 400 <br>
+            Email:
+            <a href="mailto:benjamin.mahmutovic@stu.ibu.edu.ba">benjmain.mahmutovic@stu.ibu.edu.ba</a>
+        </p>
+    </footer>
+        
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
